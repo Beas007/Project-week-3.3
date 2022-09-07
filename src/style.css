@@ -94,14 +94,10 @@ p {
 .email-link:hover {
   color: grey;
 }
-@media (max-width: 800px) {
-  img {
-    display: none;
-  }
+@media (max-width: 576px) {
   h2,
-  .second {
+  h3 {
     font-size: 35px;
-    display: block;
     text-align: center;
   }
   h1 {
@@ -110,5 +106,13 @@ p {
   h3 {
     font-size: 25px;
     font-weight: lighter;
+  }
+  p {
+    text-align: center;
+  }
+  .second {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
