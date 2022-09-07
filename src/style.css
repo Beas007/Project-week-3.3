@@ -94,7 +94,7 @@ p {
 .email-link:hover {
   color: grey;
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   img {
     display: none;
   }
